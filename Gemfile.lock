@@ -172,7 +172,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers (~> 0.10.12)
-  bcrypt (~> 3.1.7)
+  bcrypt (~> 3.1)
   bootsnap
   debug
   faker (~> 3.1)
