@@ -8,11 +8,12 @@ default: &default
   adapter: postgresql
   encoding: unicode
   host: localhost
-  username: myuser
-  password: mypassword
+  username: mokua
+  password: mokua
   database: mydatabase
   pool: 5
   timeout: 5000
+  superuser: tru
 
 development:
   <<: *default
